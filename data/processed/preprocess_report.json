@@ -1,0 +1,53 @@
+{
+  "summarisation": {
+    "input_rows": 240,
+    "output_rows": 205,
+    "split_rows": {
+      "train": 164,
+      "val": 20,
+      "test": 21
+    },
+    "stats": {
+      "raw_rows": 240,
+      "kept": 206,
+      "dropped_too_short_text": 34,
+      "after_dedup": 205
+    }
+  },
+  "qa": {
+    "input_rows": 1000,
+    "output_rows": 874,
+    "split_rows": {
+      "train": 699,
+      "val": 87,
+      "test": 88
+    },
+    "stats": {
+      "raw_rows": 1000,
+      "kept": 874,
+      "dropped_too_short_context": 126,
+      "after_dedup": 874
+    }
+  },
+  "rag_corpus": {
+    "input_rows": 12839,
+    "output_rows": 12827,
+    "split_rows": {
+      "train": 10261,
+      "val": 1282,
+      "test": 1284
+    },
+    "stats": {
+      "raw_rows": 12839,
+      "chunks_kept": 12827,
+      "docs_kept": 12827,
+      "dropped_too_short_text": 12,
+      "after_dedup": 12827
+    }
+  },
+  "settings": {
+    "random_seed": 42,
+    "chunk_size": 300,
+    "chunk_overlap": 50
+  }
+}

@@ -1,0 +1,130 @@
+2026-04-23 20:07:43.688 | INFO     | __main__:main:468 - ══════════════════════════════════════════════════════════════════════
+2026-04-23 20:07:43.688 | INFO     | __main__:main:469 -  LegalAId – Preprocessing 
+2026-04-23 20:07:43.688 | INFO     | __main__:main:470 - ══════════════════════════════════════════════════════════════════════
+2026-04-23 20:07:43.785 | INFO     | __main__:main:483 - Loaded raw summarisation rows: 240
+2026-04-23 20:07:43.785 | INFO     | __main__:main:484 - Loaded raw QA rows: 800
+2026-04-23 20:07:43.785 | INFO     | __main__:main:485 - Loaded raw RAG rows: 12,839
+2026-04-23 20:07:44.158 | INFO     | __main__:preprocess_rag:369 - RAG preprocessing mode: already chunked → cleaning only
+2026-04-23 20:07:45.763 | INFO     | __main__:save_jsonl:119 - Saved 205 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_processed.jsonl
+2026-04-23 20:07:45.779 | INFO     | __main__:save_jsonl:119 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_processed.jsonl
+2026-04-23 20:07:45.884 | INFO     | __main__:save_jsonl:119 - Saved 12,827 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_corpus_processed.jsonl
+2026-04-23 20:07:45.897 | INFO     | __main__:save_jsonl:119 - Saved 164 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_train.jsonl
+2026-04-23 20:07:45.897 | INFO     | __main__:save_jsonl:119 - Saved 20 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_val.jsonl
+2026-04-23 20:07:45.899 | INFO     | __main__:save_jsonl:119 - Saved 21 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_test.jsonl
+2026-04-23 20:07:45.900 | INFO     | __main__:save_jsonl:119 - Saved 640 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_train.jsonl
+2026-04-23 20:07:45.900 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_val.jsonl
+2026-04-23 20:07:45.900 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_test.jsonl
+2026-04-23 20:07:45.981 | INFO     | __main__:save_jsonl:119 - Saved 10,261 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_train.jsonl
+2026-04-23 20:07:46.009 | INFO     | __main__:save_jsonl:119 - Saved 1,282 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_val.jsonl
+2026-04-23 20:07:46.021 | INFO     | __main__:save_jsonl:119 - Saved 1,284 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_test.jsonl
+2026-04-23 20:07:46.024 | INFO     | __main__:write_report:460 - Saved preprocessing report → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\preprocess_report.json
+2026-04-23 20:07:46.024 | INFO     | __main__:main:563 - 
+Preprocessing summary:
+2026-04-23 20:07:46.024 | INFO     | __main__:main:564 -   Summarisation: 205 rows
+2026-04-23 20:07:46.024 | INFO     | __main__:main:565 -   QA           : 800 rows
+2026-04-23 20:07:46.024 | INFO     | __main__:main:566 -   RAG corpus   : 12,827 rows/chunks
+2026-04-23 20:07:46.024 | INFO     | __main__:main:567 - Preprocessing complete ✓
+2026-04-24 14:29:56.796 | INFO     | __main__:main:468 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 14:29:56.796 | INFO     | __main__:main:469 -  LegalAId – Preprocessing 
+2026-04-24 14:29:56.797 | INFO     | __main__:main:470 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 14:29:56.910 | INFO     | __main__:main:483 - Loaded raw summarisation rows: 240
+2026-04-24 14:29:56.910 | INFO     | __main__:main:484 - Loaded raw QA rows: 800
+2026-04-24 14:29:56.911 | INFO     | __main__:main:485 - Loaded raw RAG rows: 12,839
+2026-04-24 14:29:57.284 | INFO     | __main__:preprocess_rag:369 - RAG preprocessing mode: already chunked → cleaning only
+2026-04-24 14:29:58.946 | INFO     | __main__:save_jsonl:119 - Saved 205 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_processed.jsonl
+2026-04-24 14:29:58.953 | INFO     | __main__:save_jsonl:119 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_processed.jsonl
+2026-04-24 14:29:59.060 | INFO     | __main__:save_jsonl:119 - Saved 12,827 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_corpus_processed.jsonl
+2026-04-24 14:29:59.078 | INFO     | __main__:save_jsonl:119 - Saved 164 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_train.jsonl
+2026-04-24 14:29:59.079 | INFO     | __main__:save_jsonl:119 - Saved 20 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_val.jsonl
+2026-04-24 14:29:59.080 | INFO     | __main__:save_jsonl:119 - Saved 21 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_test.jsonl
+2026-04-24 14:29:59.086 | INFO     | __main__:save_jsonl:119 - Saved 640 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_train.jsonl
+2026-04-24 14:29:59.087 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_val.jsonl
+2026-04-24 14:29:59.089 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_test.jsonl
+2026-04-24 14:29:59.183 | INFO     | __main__:save_jsonl:119 - Saved 10,261 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_train.jsonl
+2026-04-24 14:29:59.202 | INFO     | __main__:save_jsonl:119 - Saved 1,282 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_val.jsonl
+2026-04-24 14:29:59.216 | INFO     | __main__:save_jsonl:119 - Saved 1,284 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_test.jsonl
+2026-04-24 14:29:59.219 | INFO     | __main__:write_report:460 - Saved preprocessing report → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\preprocess_report.json
+2026-04-24 14:29:59.221 | INFO     | __main__:main:563 - 
+Preprocessing summary:
+2026-04-24 14:29:59.223 | INFO     | __main__:main:564 -   Summarisation: 205 rows
+2026-04-24 14:29:59.225 | INFO     | __main__:main:565 -   QA           : 800 rows
+2026-04-24 14:29:59.225 | INFO     | __main__:main:566 -   RAG corpus   : 12,827 rows/chunks
+2026-04-24 14:29:59.226 | INFO     | __main__:main:567 - Preprocessing complete ✓
+2026-04-24 14:34:57.862 | INFO     | __main__:main:468 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 14:34:57.862 | INFO     | __main__:main:469 -  LegalAId – Preprocessing 
+2026-04-24 14:34:57.862 | INFO     | __main__:main:470 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 14:34:57.936 | INFO     | __main__:main:483 - Loaded raw summarisation rows: 240
+2026-04-24 14:34:57.937 | INFO     | __main__:main:484 - Loaded raw QA rows: 800
+2026-04-24 14:34:57.937 | INFO     | __main__:main:485 - Loaded raw RAG rows: 12,839
+2026-04-24 14:34:58.309 | INFO     | __main__:preprocess_rag:369 - RAG preprocessing mode: already chunked → cleaning only
+2026-04-24 14:34:59.965 | INFO     | __main__:save_jsonl:119 - Saved 205 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_processed.jsonl
+2026-04-24 14:34:59.974 | INFO     | __main__:save_jsonl:119 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_processed.jsonl
+2026-04-24 14:35:00.083 | INFO     | __main__:save_jsonl:119 - Saved 12,827 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_corpus_processed.jsonl
+2026-04-24 14:35:00.098 | INFO     | __main__:save_jsonl:119 - Saved 164 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_train.jsonl
+2026-04-24 14:35:00.098 | INFO     | __main__:save_jsonl:119 - Saved 20 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_val.jsonl
+2026-04-24 14:35:00.099 | INFO     | __main__:save_jsonl:119 - Saved 21 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_test.jsonl
+2026-04-24 14:35:00.107 | INFO     | __main__:save_jsonl:119 - Saved 640 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_train.jsonl
+2026-04-24 14:35:00.108 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_val.jsonl
+2026-04-24 14:35:00.109 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_test.jsonl
+2026-04-24 14:35:00.207 | INFO     | __main__:save_jsonl:119 - Saved 10,261 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_train.jsonl
+2026-04-24 14:35:00.230 | INFO     | __main__:save_jsonl:119 - Saved 1,282 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_val.jsonl
+2026-04-24 14:35:00.243 | INFO     | __main__:save_jsonl:119 - Saved 1,284 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_test.jsonl
+2026-04-24 14:35:00.247 | INFO     | __main__:write_report:460 - Saved preprocessing report → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\preprocess_report.json
+2026-04-24 14:35:00.247 | INFO     | __main__:main:563 - 
+Preprocessing summary:
+2026-04-24 14:35:00.247 | INFO     | __main__:main:564 -   Summarisation: 205 rows
+2026-04-24 14:35:00.247 | INFO     | __main__:main:565 -   QA           : 800 rows
+2026-04-24 14:35:00.248 | INFO     | __main__:main:566 -   RAG corpus   : 12,827 rows/chunks
+2026-04-24 14:35:00.248 | INFO     | __main__:main:567 - Preprocessing complete ✓
+2026-04-24 15:38:37.884 | INFO     | __main__:main:468 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 15:38:37.884 | INFO     | __main__:main:469 -  LegalAId – Preprocessing 
+2026-04-24 15:38:37.884 | INFO     | __main__:main:470 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 15:38:37.961 | INFO     | __main__:main:483 - Loaded raw summarisation rows: 240
+2026-04-24 15:38:37.962 | INFO     | __main__:main:484 - Loaded raw QA rows: 800
+2026-04-24 15:38:37.962 | INFO     | __main__:main:485 - Loaded raw RAG rows: 12,839
+2026-04-24 15:38:38.341 | INFO     | __main__:preprocess_rag:369 - RAG preprocessing mode: already chunked → cleaning only
+2026-04-24 15:38:40.024 | INFO     | __main__:save_jsonl:119 - Saved 205 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_processed.jsonl
+2026-04-24 15:38:40.031 | INFO     | __main__:save_jsonl:119 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_processed.jsonl
+2026-04-24 15:38:40.140 | INFO     | __main__:save_jsonl:119 - Saved 12,827 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_corpus_processed.jsonl
+2026-04-24 15:38:40.154 | INFO     | __main__:save_jsonl:119 - Saved 164 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_train.jsonl
+2026-04-24 15:38:40.163 | INFO     | __main__:save_jsonl:119 - Saved 20 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_val.jsonl
+2026-04-24 15:38:40.163 | INFO     | __main__:save_jsonl:119 - Saved 21 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_test.jsonl
+2026-04-24 15:38:40.172 | INFO     | __main__:save_jsonl:119 - Saved 640 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_train.jsonl
+2026-04-24 15:38:40.173 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_val.jsonl
+2026-04-24 15:38:40.175 | INFO     | __main__:save_jsonl:119 - Saved 80 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_test.jsonl
+2026-04-24 15:38:40.272 | INFO     | __main__:save_jsonl:119 - Saved 10,261 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_train.jsonl
+2026-04-24 15:38:40.288 | INFO     | __main__:save_jsonl:119 - Saved 1,282 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_val.jsonl
+2026-04-24 15:38:40.303 | INFO     | __main__:save_jsonl:119 - Saved 1,284 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_test.jsonl
+2026-04-24 15:38:40.304 | INFO     | __main__:write_report:460 - Saved preprocessing report → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\preprocess_report.json
+2026-04-24 15:38:40.304 | INFO     | __main__:main:563 - 
+Preprocessing summary:
+2026-04-24 15:38:40.305 | INFO     | __main__:main:564 -   Summarisation: 205 rows
+2026-04-24 15:38:40.305 | INFO     | __main__:main:565 -   QA           : 800 rows
+2026-04-24 15:38:40.305 | INFO     | __main__:main:566 -   RAG corpus   : 12,827 rows/chunks
+2026-04-24 15:38:40.305 | INFO     | __main__:main:567 - Preprocessing complete ✓
+2026-04-24 15:46:10.663 | INFO     | __main__:main:468 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 15:46:10.663 | INFO     | __main__:main:469 -  LegalAId – Preprocessing 
+2026-04-24 15:46:10.663 | INFO     | __main__:main:470 - ══════════════════════════════════════════════════════════════════════
+2026-04-24 15:46:10.758 | INFO     | __main__:main:483 - Loaded raw summarisation rows: 240
+2026-04-24 15:46:10.758 | INFO     | __main__:main:484 - Loaded raw QA rows: 1,000
+2026-04-24 15:46:10.758 | INFO     | __main__:main:485 - Loaded raw RAG rows: 12,839
+2026-04-24 15:46:11.201 | INFO     | __main__:preprocess_rag:369 - RAG preprocessing mode: already chunked → cleaning only
+2026-04-24 15:46:12.832 | INFO     | __main__:save_jsonl:119 - Saved 205 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_processed.jsonl
+2026-04-24 15:46:12.845 | INFO     | __main__:save_jsonl:119 - Saved 874 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_processed.jsonl
+2026-04-24 15:46:12.949 | INFO     | __main__:save_jsonl:119 - Saved 12,827 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_corpus_processed.jsonl
+2026-04-24 15:46:12.963 | INFO     | __main__:save_jsonl:119 - Saved 164 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_train.jsonl
+2026-04-24 15:46:12.965 | INFO     | __main__:save_jsonl:119 - Saved 20 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_val.jsonl
+2026-04-24 15:46:12.965 | INFO     | __main__:save_jsonl:119 - Saved 21 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\summarisation_test.jsonl
+2026-04-24 15:46:12.965 | INFO     | __main__:save_jsonl:119 - Saved 699 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_train.jsonl
+2026-04-24 15:46:12.975 | INFO     | __main__:save_jsonl:119 - Saved 87 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_val.jsonl
+2026-04-24 15:46:12.975 | INFO     | __main__:save_jsonl:119 - Saved 88 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\qa_test.jsonl
+2026-04-24 15:46:13.055 | INFO     | __main__:save_jsonl:119 - Saved 10,261 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_train.jsonl
+2026-04-24 15:46:13.084 | INFO     | __main__:save_jsonl:119 - Saved 1,282 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_val.jsonl
+2026-04-24 15:46:13.087 | INFO     | __main__:save_jsonl:119 - Saved 1,284 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\rag_test.jsonl
+2026-04-24 15:46:13.087 | INFO     | __main__:write_report:460 - Saved preprocessing report → C:\Users\Siddharth Khatri\Documents\LegalAId\data\processed\preprocess_report.json
+2026-04-24 15:46:13.087 | INFO     | __main__:main:563 - 
+Preprocessing summary:
+2026-04-24 15:46:13.087 | INFO     | __main__:main:564 -   Summarisation: 205 rows
+2026-04-24 15:46:13.087 | INFO     | __main__:main:565 -   QA           : 874 rows
+2026-04-24 15:46:13.087 | INFO     | __main__:main:566 -   RAG corpus   : 12,827 rows/chunks
+2026-04-24 15:46:13.087 | INFO     | __main__:main:567 - Preprocessing complete ✓

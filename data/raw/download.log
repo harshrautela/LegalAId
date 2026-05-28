@@ -1,0 +1,109 @@
+2026-04-23 19:17:56.884 | INFO     | __main__:main:461 - ════════════════════════════════════════════════════════════
+2026-04-23 19:17:56.884 | INFO     | __main__:main:462 -  LegalAId  –  Data Download 
+2026-04-23 19:17:56.884 | INFO     | __main__:main:463 - ════════════════════════════════════════════════════════════
+2026-04-23 19:17:56.884 | INFO     | __main__:download_summarisation:68 - Downloading Indian legal summarisation dataset …
+2026-04-23 19:17:57.177 | WARNING  | __main__:download_summarisation:90 - Primary summarisation dataset unavailable: Dataset 'd0r1h/Indian_Legal_Dataset' doesn't exist on the Hub or cannot be accessed.
+2026-04-23 19:17:57.452 | WARNING  | __main__:download_summarisation:109 - Fallback summarisation dataset unavailable: Dataset 'legal_summarization' doesn't exist on the Hub or cannot be accessed.
+2026-04-23 19:17:57.453 | WARNING  | __main__:download_summarisation:113 - Could not reach HuggingFace.  Creating synthetic seed data …
+2026-04-23 19:17:57.455 | INFO     | __main__:save_jsonl:52 - Saved 60 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\summarisation_raw.jsonl
+2026-04-23 19:17:57.456 | INFO     | __main__:download_qa:133 - Downloading Indian legal QA dataset …
+2026-04-23 19:17:58.291 | WARNING  | __main__:download_qa:153 - IL-TUR unavailable: Dataset 'Exploration-Lab/IL-TUR' is a gated dataset on the Hub. You must be authenticated to access it.
+2026-04-23 19:17:58.293 | WARNING  | __main__:download_qa:157 - Generating synthetic QA seed data …
+2026-04-23 19:17:58.294 | INFO     | __main__:save_jsonl:52 - Saved 100 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\qa_raw.jsonl
+2026-04-23 19:17:58.295 | INFO     | __main__:download_rag_corpus:175 - Downloading RAG corpus (SC judgments) …
+2026-04-23 19:18:08.573 | INFO     | __main__:save_jsonl:52 - Saved 0 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\rag_corpus_raw.jsonl
+2026-04-23 19:18:08.574 | INFO     | __main__:main:469 - 
+Download summary:
+  Summarisation : 60 records
+  QA            : 100 records
+  RAG corpus    : 0 records
+  Total         : 160 records
+2026-04-23 19:18:08.575 | INFO     | __main__:main:476 - Download complete ✓
+2026-04-23 19:26:37.547 | INFO     | __main__:main:600 - ════════════════════════════════════════════════════════════
+2026-04-23 19:26:37.547 | INFO     | __main__:main:601 -  LegalAId  –  Data Download 
+2026-04-23 19:26:37.547 | INFO     | __main__:main:602 - ════════════════════════════════════════════════════════════
+2026-04-23 19:26:37.547 | INFO     | __main__:download_summarisation:160 - Downloading Indian legal summarisation dataset …
+2026-04-23 19:26:37.867 | WARNING  | __main__:download_summarisation:199 - Summarisation dataset unavailable (d0r1h/Indian_Legal_Dataset): Dataset 'd0r1h/Indian_Legal_Dataset' doesn't exist on the Hub or cannot be accessed.
+2026-04-23 19:26:42.978 | INFO     | __main__:download_summarisation:172 -   Loaded SaiCharanChetpelly/legal-summarization: 20 rows
+2026-04-23 19:26:43.244 | WARNING  | __main__:download_summarisation:199 - Summarisation dataset unavailable (legal_summarization): Dataset 'legal_summarization' doesn't exist on the Hub or cannot be accessed.
+2026-04-23 19:26:43.249 | WARNING  | __main__:download_summarisation:204 - Summarisation records are only 19; augmenting with synthetic legal summaries to reach the target cap.
+2026-04-23 19:26:43.298 | INFO     | __main__:save_jsonl:74 - Saved 1,200 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\summarisation_raw.jsonl
+2026-04-23 19:26:43.298 | INFO     | __main__:download_qa:223 - Downloading Indian legal QA dataset …
+2026-04-23 19:26:43.847 | WARNING  | __main__:download_qa:264 - QA dataset unavailable (Exploration-Lab/IL-TUR): Dataset 'Exploration-Lab/IL-TUR' is a gated dataset on the Hub. You must be authenticated to access it.
+2026-04-23 19:26:44.103 | WARNING  | __main__:download_qa:264 - QA dataset unavailable (IndicLegalQA): Dataset 'IndicLegalQA' doesn't exist on the Hub or cannot be accessed.
+2026-04-23 19:26:44.103 | WARNING  | __main__:download_qa:269 - QA records are only 0; augmenting with synthetic legal QA to reach the target cap.
+2026-04-23 19:26:44.136 | INFO     | __main__:save_jsonl:74 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\qa_raw.jsonl
+2026-04-23 19:26:44.136 | INFO     | __main__:download_rag_corpus:288 - Downloading RAG corpus (SC judgments) …
+2026-04-23 19:26:46.718 | INFO     | __main__:download_rag_corpus:300 -   Loaded viber1/indian-law-dataset: 24607 rows
+2026-04-23 19:26:55.655 | INFO     | __main__:download_rag_corpus:300 -   Loaded debkanchan/supreme-court-of-india-judgements: 36914 rows
+2026-04-23 19:26:57.103 | WARNING  | __main__:download_rag_corpus:327 - RAG corpus records are only 0; augmenting with synthetic judgments and chunking to reach target size.
+2026-04-23 19:26:57.141 | INFO     | __main__:save_jsonl:74 - Saved 600 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\rag_corpus_raw.jsonl
+2026-04-23 19:26:57.143 | INFO     | __main__:main:608 - 
+Download summary:
+  Summarisation : 1,200 records
+  QA            : 800 records
+  RAG corpus    : 600 records
+  Total         : 2,600 records
+2026-04-23 19:26:57.143 | INFO     | __main__:main:615 - Download complete ✓
+2026-04-23 19:52:58.509 | INFO     | __main__:main:672 - ════════════════════════════════════════════════════════════
+2026-04-23 19:52:58.509 | INFO     | __main__:main:673 -  LegalAId – Data Download 
+2026-04-23 19:52:58.509 | INFO     | __main__:main:674 - ════════════════════════════════════════════════════════════
+2026-04-23 19:52:58.509 | INFO     | __main__:download_summarisation:471 - Downloading legal summarisation dataset …
+2026-04-23 19:53:02.048 | INFO     | __main__:download_summarisation:477 - Loaded SaiCharanChetpelly/legal-summarization: 20 rows
+2026-04-23 19:53:02.066 | WARNING  | __main__:download_summarisation:510 - Summarisation has only 19 real rows; adding 221 synthetic rows.
+2026-04-23 19:53:02.122 | INFO     | __main__:save_jsonl:90 - Saved 240 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\summarisation_raw.jsonl
+2026-04-23 19:53:02.122 | INFO     | __main__:download_qa:533 - Downloading IndicQA and filtering to English-only rows …
+2026-04-23 19:53:02.815 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.as): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:03.099 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.bn): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:03.383 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.gu): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:03.664 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.hi): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:03.953 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.kn): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:04.298 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.ml): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:04.566 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.mr): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:04.856 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.or): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:05.127 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.pa): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:05.410 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.ta): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:05.682 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.te): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 19:53:05.682 | WARNING  | __main__:download_qa:576 - English QA rows found: 0. Adding 800 synthetic English legal QA rows.
+2026-04-23 19:53:05.768 | INFO     | __main__:save_jsonl:90 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\qa_raw.jsonl
+2026-04-23 19:53:05.768 | INFO     | __main__:download_rag_corpus:614 - Downloading RAG corpus from viber1/indian-law-dataset …
+2026-04-23 19:53:08.975 | INFO     | __main__:download_rag_corpus:620 - Loaded viber1/indian-law-dataset: 24607 rows
+2026-04-23 19:53:13.205 | INFO     | __main__:save_jsonl:90 - Saved 12,839 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\rag_corpus_raw.jsonl
+2026-04-23 19:53:13.221 | INFO     | __main__:main:680 - 
+Download summary:
+  Summarisation : 240 records
+  QA            : 800 records
+  RAG corpus    : 12,839 records
+  Total         : 13,879 records
+2026-04-23 19:53:13.221 | INFO     | __main__:main:687 - Download complete ✓
+2026-04-23 20:00:26.560 | INFO     | __main__:main:672 - ════════════════════════════════════════════════════════════
+2026-04-23 20:00:26.560 | INFO     | __main__:main:673 -  LegalAId – Data Download 
+2026-04-23 20:00:26.560 | INFO     | __main__:main:674 - ════════════════════════════════════════════════════════════
+2026-04-23 20:00:26.560 | INFO     | __main__:download_summarisation:471 - Downloading legal summarisation dataset …
+2026-04-23 20:00:30.130 | INFO     | __main__:download_summarisation:477 - Loaded SaiCharanChetpelly/legal-summarization: 20 rows
+2026-04-23 20:00:30.161 | WARNING  | __main__:download_summarisation:510 - Summarisation has only 19 real rows; adding 221 synthetic rows.
+2026-04-23 20:00:30.215 | INFO     | __main__:save_jsonl:90 - Saved 240 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\summarisation_raw.jsonl
+2026-04-23 20:00:30.215 | INFO     | __main__:download_qa:533 - Downloading IndicQA and filtering to English-only rows …
+2026-04-23 20:00:30.498 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.as): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:30.787 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.bn): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:31.073 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.gu): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:31.347 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.hi): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:31.635 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.kn): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:31.937 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.ml): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:32.212 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.mr): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:32.498 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.or): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:32.790 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.pa): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:33.079 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.ta): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:33.356 | WARNING  | __main__:download_qa:570 - QA dataset unavailable (indicqa.te): Dataset scripts are no longer supported, but found IndicQA.py
+2026-04-23 20:00:33.356 | WARNING  | __main__:download_qa:576 - English QA rows found: 0. Adding 800 synthetic English legal QA rows.
+2026-04-23 20:00:33.444 | INFO     | __main__:save_jsonl:90 - Saved 800 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\qa_raw.jsonl
+2026-04-23 20:00:33.444 | INFO     | __main__:download_rag_corpus:614 - Downloading RAG corpus from viber1/indian-law-dataset …
+2026-04-23 20:00:37.742 | INFO     | __main__:download_rag_corpus:620 - Loaded viber1/indian-law-dataset: 24607 rows
+2026-04-23 20:00:41.974 | INFO     | __main__:save_jsonl:90 - Saved 12,839 records → C:\Users\Siddharth Khatri\Documents\LegalAId\data\raw\rag_corpus_raw.jsonl
+2026-04-23 20:00:41.974 | INFO     | __main__:main:680 - 
+Download summary:
+  Summarisation : 240 records
+  QA            : 800 records
+  RAG corpus    : 12,839 records
+  Total         : 13,879 records
+2026-04-23 20:00:41.974 | INFO     | __main__:main:687 - Download complete ✓

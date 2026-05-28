@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+crash_log.txt
+
+# Outputs
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
